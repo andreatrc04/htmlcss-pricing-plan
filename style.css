@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+
+}
+
+.intro h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.intro p {
+    color: gray;
+    font-size: 14px;
+
+}
+
+
+.billing {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-left: auto;
+    gap: 5px;
+    align-items: center;
+}
+
+.plans {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plan {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    flex-basis: calc((100% - 40px) / 3);
+    min-width: 280px;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.plan-featured {
+    background-color: #6500ff;
+    color: white;
+}
+
+.plan h2 {
+    text-align: left;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
+.plan-tag {
+    text-align: left;
+    color: gray;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.currency {
+    font-size: 15px;
+}
+
+.plan-featured .plan-tag {
+    color: white;
+}
+
+.period {
+    font-size: 15px;
+    color: grey;
+}
+
+.plan-featured .period {
+    color: white;
+}
+
+.discount span {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 2px;
+}
+
+.btn {
+    display: block;
+    background-color: #6500ff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+}
+
+.plan-featured .btn {
+    color: #6500ff;
+    background-color: white;
+}
+
+.features {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.features li {
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 220px;
+    flex-basis: calc(100% / 2);
+}
+
+.billing i {
+    font-size: 20px;
+
+}
